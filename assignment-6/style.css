@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400|Roboto:100,100i,300,400,400i,700');
+/*
+General Styling
+*/
+body {
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    color: #333;
+    margin:0;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    color: #e4b532;
+}
+
+/*
+Hero
+*/
+.hero {
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+}
+.hero-card {
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.73);
+    color: #efefef;
+    padding: 50px;
+    margin: 110px auto 60px auto;
+    max-width: 960px;
+    text-align:center;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
+}
+.hero-card-title {
+    font-family: "Cormorant";
+    margin:0;
+    font-size: 50px;
+}
+.hero-card-description {
+    font-family: "Cormorant";
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+a.hero-card-link {
+    text-decoration:none;
+    color: #efefef;
+    font-size: 18px;
+    border: 2px solid #efefef;
+    padding: 5px 20px;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+a.hero-card-link:hover {
+    color: #d69e00;
+    border-color:#d69e00;
+}
+#about.hero {
+    background-image: url("images/blueberries.jpg");
+}
+#coffee.hero {
+    background-image: url("images/coffee.jpg");
+}
+#assignment.hero {
+    background-image: url("images/coast.jpg");
+}
+#search.hero {
+    background-image: url("images/sky.jpg");
+}
+#home.hero {
+    background-image: url("images/ocean.jpg");
+}
+/*
+Home
+*/
+.card {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    width:calc(33.3%,-20px);
+    min-height: 310px;
+    margin: 10px;
+    float: left;
+    text-decoration:none;
+    color: #333;
+    transition: all .2s ease;
+}
+.card:hover{
+    transform: scale(1.025,1.025);
+    box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+    
+}
+.card-title {
+
+    padding: 0px 20px;
+    margin: 40px 0 10px 0;
+    font-size: 24px;
+    font-family: "Cormorant Garamond";
+}
+.card h4 {
+    color:#fff;
+    
+    
+}
+.card img{
+    margin-bottom: 15px;
+}
+.card-description{
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    color: #999;
+}
+
+
+
+/*
+Navigation
+*/
+.main-nav {
+    margin: 20px auto;
+    max-width: 960px;
+    text-align:right;
+}
+a.nav-link {
+  box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    height: 40px;
+    line-height: 38px;
+    font-family: "Cormorant Garamond";
+    display: inline-block;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 0px 15px;
+    border: 2px solid rgba(255,255,255,0);
+    transition: all 0.2s ease;
+}
+a.nav-link:hover{
+    color:#ffd86b;
+    border-color:#ffd86b;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/*
+Main content
+*/
+.main-content{
+    
+    margin: 50px auto;
+    width: 960px;
+}
+.main-content img{
+    float:left;
+}
+.clear{
+    clear:both;
+}
+
+/*
+Footer
+*/
+footer{
+    background-color: #333;
+    color:#999;
+    padding:20px;
+    text-align:center;
+}
+.footer a{
+    color:#ab810a;
+    text-decoration:none;
+}
+.footer a:hover{
+    color:#d69e00;
+    text-decoration:underline;
+}
+
+/*
+Seaech
+*/
+.search-form {
+    background-color: #ffffff;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+    padding: 40px;
+}
+label {
+    margin-right: 10px;
+}
+input {
+    border: 1px solid #ddd;
+    height: 30px;
+    width: 630px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+button {
+    background-color: #3c8bce;
+    height: 32px;
+    margin-left: 10px;
+    padding: 0 20px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+/*
+Coffee
+*/
+.coffee-quote{
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px 15px;
+    border-left: 5px solid #d69e00;
+}
+cite {
+    display: block;
+    color: #666;
+    font-size: 16px;
+}
+.menu th {
+    padding: 10px 50px;
+}
+.menu.size{
+    min-width: 150px;
+    text-align: right;
+    font-size: 14px;
+}
+.menu td {
+    padding: 10px 50px;
+    vertical-align: top;
+    text-align: right;
+}
+.menu dd {
+    margin-left: -40px;
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+    text-align: left;
+}
+
+.menu.label {
+    text-align: left;
+}
+
+.menu dt{
+    margin-left: -40px;
+    text-align: left;
+    
+}
+
+
+/*
+Assignment
+*/
+.assignment-list dt {
+    margin-top: 20px;
+}
+.assignment-list a {
+    color: #3c8bce;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.assignment-list a:hover {
+    color: #115690;
+}
+.assignment-list dd {
+    margin-left: 0px;
+    
+}
+
+
+/*
+About
+*/
+.about-photo{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+.about-list-container {
+    border-left: 5px solid #d69e00;
+    margin-bottom: 50px;
+    padding: 20px 50px;
+}
+
+.about-list-title{
+    font-size: 30px;
+    font-weight: 400;
+    color: #d69e00;
+}
+
+.about-list {
+    font-size: 24px;
+}
+
+.about-list li{
+    margin:1em auto;
+}
+#logo {
+    float: left;
+    margin-right:100px;
+    width:0;
+    height:0;
+    color: rgba(255,255,255,0);
+    padding: 60px 160px 0 0;
+    background-image: url(images/logo.png);
+    background-size: 120px 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+#logo:hover {
+    background-color: rgba(0,0,0,0.4);
+}

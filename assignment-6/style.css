@@ -127,7 +127,7 @@ Navigation
     text-align:right;
 }
 a.nav-link {
-  box-sizing: border-box;
+    box-sizing: border-box;
     color: #fff;
     text-decoration: none;
     font-size: 20px;

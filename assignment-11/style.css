@@ -65,7 +65,7 @@ Hero
     background-image: url("images/roof.jpg");
 }
 .hero {
-    color: #ffffff;
+    color: #000202;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -79,7 +79,7 @@ Hero
     text-align:left;
 }
 .hero-card-title {
-    color: white;
+    color: #ffffff;
     font-family: "limelight",arial, sans-serif;
     font-size: 115px;
     text-decoration: none;
@@ -89,7 +89,7 @@ Hero
 }
 .hero-card-link {
     background-color: #7cbae8;
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
@@ -102,7 +102,7 @@ Hero
 }
 a:visited: {
     text-decoration: none;
-    color: #fff;
+    color: #000202;
 }
 a:hover {
     color: #7cbae8;
@@ -310,7 +310,7 @@ h4 {
     box-shadow: 5px 5px 5px #bfbfbf;
 }
 .send:link {
-    background-color: #ffffff;
+    background-color: #7cbae8;
     color: #000202;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -338,7 +338,7 @@ a:hover {
 #twitter {
     margin-left:590px;
     padding: 25px 25px;
-    margin-top: -100px;
+    margin-top: -120px;
     background-image: url(images/twitter.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@ a:hover {
 
 #ins {
     padding: 25px 25px;
-    margin-top: -100px;
+    margin-top: -120px;
     float: left;
     margin-left: 670px;
     background-image: url(images/ins.png);
@@ -368,7 +368,7 @@ a:hover {
 #facebook {
     padding: 25px 25px;
     margin-left: 750px;
-    margin-top: -100px;
+    margin-top: -120px;
     background-image: url(images/facebook.png);
     background-position: center;
     background-repeat: no-repeat;

@@ -146,44 +146,45 @@ Main Content
 }
 
 h2{
-    margin-left: 220px;
     padding-top: 40px;
     border-radius: 4px;
     margin-top: -40px;
+    margin-left: 35px;
     color: #000202;
     font-family: "ubuntu";
     font-size: 32px;
     font-weight: 700;
     overflow: auto;
+    margin: 10px auto;
+
 }
 .lines {
-    margin-left: 235px;
+    margin-left: 40px;
     margin-top: 25px;
     overflow: auto;
 }
 .content {
-    margin-right: 20px;
     text-align: left;
     padding-right: 20px;
-    margin-top: 30px;
     overflow: auto;
+    width: 1200px;
+    margin: 10px auto;
 }
 .content-background {
     background-color: #ffffff;
     width: 900px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 400px;
+    margin-left: 220px; 
     margin-bottom: 90px;
     margin-top: -287px;
-    margin-right: 500px;
     box-shadow: 5px 5px 5px #bfbfbf;
 }
 .title {
     font-family: "ubuntu";
     font-size: 22pt;
     color: #000202;
-    margin-left: 30px;
+    margin: 30px;
     font-weight: 700;
 }
 .details {
@@ -201,7 +202,8 @@ Experiences
 */
 #empty-background.main-text {
     background-image: url("images/empty-background.jpg");
-    margin-top: -30px;
+    margin-top: 0 auto;
+    height: 1450px;
     background-size: cover;
     padding-top: 20px;
 }
@@ -210,17 +212,16 @@ Experiences
 }
 .text {
     background-color: #ffffff;
-    width: 1000px;
+    width: 930px;
     height: 287px;
-    margin-top:30px;
-    margin-left: 220px;
+    margin: 50 auto;
     box-shadow: 5px 5px 5px #bfbfbf;
 }
 .name {
     font-family: "ubuntu";
     font-size: 22pt;
     color: #000202;
-    margin-left: 420px;
+    margin-left: 385px;
     margin-top: -270px;
     font-weight: 700;
 }
@@ -229,7 +230,7 @@ Experiences
     font-size: 16pt;
     color: #000202;
     font-weight: 500;
-    margin-left: 420px;
+    margin-left: 385px;
     margin-top: -15px;
     margin-bottom: auto;
 }
@@ -240,17 +241,23 @@ Experiences
 Community
 */
 #empty-background2.main-contect {
-    background-image: url("images/empty-background2.jpg");
+    background-image: url("images/background.jpg");
     margin-top: -30px;
     background-size: cover;
     padding-top: 20px;
+    height: 650px;
+}
+
+.area {
+    margin: 10 auto;
+    width: 800px;
 }
 
 .textarea1 {
     width: 300px;
     height: 50px;
     padding: 12px 20px;
-    margin-left: 350px;
+
     margin-top: -10px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -266,7 +273,7 @@ Community
     width: 380px;
     height: 50px;
     padding: 12px 20px;
-    margin-left: 700px;
+    margin-left: 45px;
     margin-top: -50px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -282,7 +289,7 @@ Community
     width: 730px;
     height: 200px;
     padding: 12px 20px;
-    margin-left: 350px;
+
     margin-top: 20px;
     margin-bottom: 200px;
     box-sizing: border-box;
@@ -298,14 +305,14 @@ h4 {
     font-family: "ubuntu";
     font-size: 24pt;
     color: #000202;
-    margin-left: 350px;
+
     margin-top: 50px;
     font-weight: 700;
 }
 .send {
     font-size: 16pt;
     width: 43px;
-    margin-left: 990px;
+    margin-left: 642px;
     margin-top: -180px;
     box-shadow: 5px 5px 5px #bfbfbf;
 }
@@ -336,7 +343,7 @@ a:hover {
 
 
 #twitter {
-    margin-left:590px;
+    margin-left:240px;
     padding: 25px 25px;
     margin-top: -120px;
     background-image: url(images/twitter.png);
@@ -354,7 +361,7 @@ a:hover {
     padding: 25px 25px;
     margin-top: -120px;
     float: left;
-    margin-left: 670px;
+    margin-left: 320px;
     background-image: url(images/ins.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -367,7 +374,7 @@ a:hover {
 
 #facebook {
     padding: 25px 25px;
-    margin-left: 750px;
+    margin-left: 400px;
     margin-top: -120px;
     background-image: url(images/facebook.png);
     background-position: center;
